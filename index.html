@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikhil Charan — AI Engineer & Visionary</title>
+  <meta name="description"
+    content="Portfolio of Medikonda Nikhil Charan — AI/ML Engineer, Python Developer, and Cloud Automation Specialist building intelligent systems." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>" />
+</head>
+
+<body>
+
+  <!-- ═══ LOADER ═══ -->
+  <div class="loader" id="loader">
+    <span class="loader-text">Nikhil Charan</span>
+  </div>
+
+  <!-- ═══ CUSTOM CURSOR ═══ -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">Nikhil Charan</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">Archive</a></li>
+      <li><a href="#skills">Expertise</a></li>
+      <li><a href="#projects">Exhibition</a></li>
+      <li><a href="#experience">Chronicle</a></li>
+      <li><a href="#contact">Inquiry</a></li>
+    </ul>
+    <button class="nav-connect"
+      onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Connect</button>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="hero">
+    <div class="hero-grain"></div>
+    <div class="float-shape" style="width:300px;height:300px;top:10%;left:5%;animation-delay:0s;"></div>
+    <div class="float-shape" style="width:200px;height:200px;bottom:15%;right:8%;animation-delay:3s;"></div>
+    <div class="float-shape" style="width:150px;height:150px;top:60%;left:60%;animation-delay:5s;"></div>
+
+    <span class="hero-side-text">[01] Prologue</span>
+
+    <p class="hero-tag" id="heroTag">AI Engineer · Automation Architect · Cloud Developer</p>
+
+    <h1 id="heroTitle">
+      Crafting the
+      <em id="heroTyping">Future</em>
+    </h1>
+
+    <div class="hero-line" id="heroLine"></div>
+
+    <p class="hero-sub" id="heroSub">
+      A results-driven technologist building intelligent systems at the intersection
+      of AI, automation, and cloud computing — transforming ideas into impactful solutions.
+    </p>
+
+    <div class="hero-btns" id="heroBtns">
+      <a href="https://drive.google.com/file/d/your-resume-link" target="_blank" class="btn-primary">View Resume</a>
+      <a href="#contact" class="btn-outline">Contact Me</a>
+      <a href="#projects" class="btn-outline">Explore Portfolio</a>
+    </div>
+
+    <div class="scroll-indicator" id="scrollInd">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══ OBJECTIVE ═══ -->
+  <section class="objective" id="objective">
+    <div class="reveal">
+      <span class="section-tag">✦ The Vision</span>
+      <h2 class="section-title">Purpose & <em>Direction</em></h2>
+      <div class="section-divider" style="margin:1.5rem auto;"></div>
+      <p class="section-desc">
+        A curated journey through technology and innovation — exploring the intersection
+        of artificial intelligence and human potential through a deliberate, intentional lens.
+      </p>
+      <blockquote class="objective-quote">
+        Results-driven Information Technology student with hands-on experience in AI/ML,
+        Python development, cloud platforms, and AI automation workflows —
+        actively building intelligent systems that deliver impactful solutions
+        in fast-paced environments.
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT / PHOTO ═══ -->
+  <section id="about" style="padding:8rem 3rem;">
+    <div class="about">
+      <div class="about-image-wrap reveal-left">
+        <img src="profile1.jpg" alt="Nikhil Charan" class="about-image" id="aboutPhoto" />
+        <div class="about-frame"></div>
+      </div>
+      <div class="about-details reveal-right">
+        <span class="section-tag">✦ The Archive</span>
+        <h3>Medikonda Nikhil Charan</h3>
+        <p class="location">📍 Payakaraopeta, Andhra Pradesh, India</p>
+        <div class="section-divider"></div>
+        <p>
+          An emerging AI engineer and automation architect currently pursuing B.Tech in Information Technology
+          at Vignan's Institute of Information Technology (JNTU-GV). With a foundation built on hands-on
+          internships at industry giants — AWS, Google, and HMI — I specialize in building intelligent
+          systems that bridge the gap between raw data and real-world impact.
+        </p>
+        <p>
+          From designing face recognition attendance systems to predicting agricultural diseases
+          with machine learning, every project is a step toward a future where technology
+          serves humanity more intelligently.
+        </p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <div class="stat-num" data-count="4">0</div>
+            <div class="stat-label">Internships</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" data-count="4">0</div>
+            <div class="stat-label">Certifications</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" data-count="7.98">0</div>
+            <div class="stat-label">CGPA</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ TECHNICAL SKILLS ═══ -->
+  <section class="skills" id="skills">
+    <div style="text-align:center;">
+      <span class="section-tag">✦ The Expertise</span>
+      <h2 class="section-title">Technical <em>Arsenal</em></h2>
+    </div>
+    <div class="skills-grid">
+      <!-- Programming -->
+      <div class="skill-card reveal">
+        <div class="skill-icon">⟨/⟩</div>
+        <h3>Programming & Web</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" data-width="90%"></div>
+        </div>
+      </div>
+      <!-- AI & Automation -->
+      <div class="skill-card reveal">
+        <div class="skill-icon">🤖</div>
+        <h3>AI & Automation</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">ChatGPT</span>
+          <span class="skill-tag">Claude AI</span>
+          <span class="skill-tag">GitHub Copilot</span>
+          <span class="skill-tag">Zapier</span>
+          <span class="skill-tag">Make.com</span>
+          <span class="skill-tag">n8n</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" data-width="85%"></div>
+        </div>
+      </div>
+      <!-- APIs & Integration -->
+      <div class="skill-card reveal">
+        <div class="skill-icon">🔗</div>
+        <h3>APIs & Integration</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">REST APIs</span>
+          <span class="skill-tag">OpenAI API</span>
+          <span class="skill-tag">Webhooks</span>
+          <span class="skill-tag">Postman</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" data-width="80%"></div>
+        </div>
+      </div>
+      <!-- Cloud & DB -->
+      <div class="skill-card reveal">
+        <div class="skill-icon">☁️</div>
+        <h3>Cloud & Databases</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">AWS EC2</span>
+          <span class="skill-tag">S3</span>
+          <span class="skill-tag">Lambda</span>
+          <span class="skill-tag">SageMaker</span>
+          <span class="skill-tag">SQL</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" data-width="75%"></div>
+        </div>
+      </div>
+      <!-- ML & Data -->
+      <div class="skill-card reveal">
+        <div class="skill-icon">📊</div>
+        <h3>ML & Data Science</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">scikit-learn</span>
+          <span class="skill-tag">pandas</span>
+          <span class="skill-tag">numpy</span>
+          <span class="skill-tag">Data Preprocessing</span>
+          <span class="skill-tag">Model Evaluation</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" data-width="82%"></div>
+        </div>
+      </div>
+      <!-- Dev Tools -->
+      <div class="skill-card reveal">
+        <div class="skill-icon">🛠️</div>
+        <h3>Developer Tools & Creative</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Video Editing</span>
+          <span class="skill-tag">Photo Editing</span>
+          <span class="skill-tag">Content Creation</span>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-bar-fill" data-width="88%"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROJECTS — HORIZONTAL SCROLL ═══ -->
+  <section id="projects" class="projects-section">
+    <div style="text-align:center;" class="reveal">
+      <span class="section-tag">✦ The Exhibition</span>
+      <h2 class="section-title">Selected <em>Works</em></h2>
+      <p class="section-desc" style="margin:0 auto;">
+        A curated collection of projects that demonstrate the practical application
+        of AI, machine learning, and automation technologies.
+      </p>
+    </div>
+    <!-- Carousel Nav -->
+    <div class="carousel-nav">
+      <button class="carousel-btn" id="prevBtn" aria-label="Previous project">←</button>
+      <span class="carousel-counter"><span id="currentSlide">01</span> / 03</span>
+      <button class="carousel-btn" id="nextBtn" aria-label="Next project">→</button>
+    </div>
+    <!-- Scroll Track -->
+    <div class="projects-carousel" id="projectsCarousel">
+      <div class="projects-track" id="projectsTrack">
+        <!-- Project 1 -->
+        <div class="project-card-h">
+          <div class="project-thumb" style="background:linear-gradient(135deg,#3D1C11 0%,#5C3A2E 100%);">
+            <span class="project-thumb-icon">🧠</span>
+            <div class="project-overlay">
+              <a href="https://github.com/Nikhil0809/bias-nlp" target="_blank">GitHub</a>
+              <a href="#" target="_blank">Live Demo</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>FairNLP-MT</h3>
+            <p>A multi-attribute transformer debiasing platform for detecting, measuring, and mitigating bias in NLP
+              systems using adversarial training and counterfactual testing.</p>
+            <div class="project-tech">
+              <span>React</span><span>FastAPI</span><span>Python</span><span>Transformers</span><span>GSAP</span>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card-h">
+          <div class="project-thumb" style="background:linear-gradient(135deg,#C4756E 0%,#D4A0A0 100%);">
+            <span class="project-thumb-icon">👁️</span>
+            <div class="project-overlay">
+              <a href="https://github.com/Nikhil0809" target="_blank">GitHub</a>
+              <a href="#" target="_blank">Details</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>AI Attendance System</h3>
+            <p>An AI-powered face recognition system to automate student attendance with high accuracy using Python,
+              OpenCV, and deep learning models.</p>
+            <div class="project-tech">
+              <span>Python</span><span>OpenCV</span><span>Face Recognition</span><span>Flask</span>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card-h">
+          <div class="project-thumb" style="background:linear-gradient(135deg,#B8965A 0%,#D4A0A0 100%);">
+            <span class="project-thumb-icon">🌿</span>
+            <div class="project-overlay">
+              <a href="https://github.com/Nikhil0809" target="_blank">GitHub</a>
+              <a href="#" target="_blank">Details</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Sugarcane Disease Prediction</h3>
+            <p>A machine learning system to classify and predict sugarcane plant diseases from input data features using
+              supervised learning techniques and end-to-end ML pipelines.</p>
+            <div class="project-tech">
+              <span>Python</span><span>scikit-learn</span><span>pandas</span><span>ML Pipeline</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Dots -->
+    <div class="carousel-dots" id="carouselDots">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+    </div>
+  </section>
+
+  <!-- ═══ EXPERIENCE & EDUCATION TIMELINE ═══ -->
+  <section id="experience">
+    <div style="text-align:center;" class="reveal">
+      <span class="section-tag">✦ The Chronicle</span>
+      <h2 class="section-title">Experience & <em>Education</em></h2>
+    </div>
+    <div class="timeline">
+      <!-- Google AI-ML -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content" style="grid-column:1;text-align:right;">
+          <span class="timeline-date">Apr — Jun 2025</span>
+          <h3>Google AI-ML Virtual Intern</h3>
+          <h4>Google (AICTE)</h4>
+          <p>Developed practical AI/ML skills including model training, evaluation, and deployment using Google
+            technologies. Built intelligent data processing pipelines.</p>
+        </div>
+      </div>
+      <!-- AWS AI-ML -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content" style="grid-column:2;text-align:left;">
+          <span class="timeline-date">Jan — Mar 2025</span>
+          <h3>AWS AI-ML Virtual Intern</h3>
+          <h4>Amazon Web Services (AICTE)</h4>
+          <p>Implemented AI models using AWS SageMaker. Built and deployed ML pipelines integrating AWS APIs for
+            automated data ingestion and model inference.</p>
+        </div>
+      </div>
+      <!-- AWS Cloud -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content" style="grid-column:1;text-align:right;">
+          <span class="timeline-date">Oct — Dec 2024</span>
+          <h3>AWS Cloud Virtual Intern</h3>
+          <h4>Amazon Web Services (AICTE)</h4>
+          <p>Gained foundational knowledge in cloud computing, AWS core services (EC2, S3, Lambda), deployment
+            strategies, and scalability concepts.</p>
+        </div>
+      </div>
+      <!-- HMI -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content" style="grid-column:2;text-align:left;">
+          <span class="timeline-date">2024</span>
+          <h3>AI & Automation Intern</h3>
+          <h4>HMI — Long Term Internship</h4>
+          <p>Intensive internship on Core Python and ML — built sugarcane disease prediction model. Automated reporting
+            workflows and integrated APIs.</p>
+        </div>
+      </div>
+      <!-- B.Tech -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content" style="grid-column:1;text-align:right;">
+          <span class="timeline-date">2023 — 2027</span>
+          <h3>B.Tech — Information Technology</h3>
+          <h4>Vignan's Institute of Information Technology (JNTU-GV)</h4>
+          <p>CGPA: 7.98 / 10 — Pursuing comprehensive IT education with focus on AI, ML, and cloud technologies.</p>
+        </div>
+      </div>
+      <!-- Diploma -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content" style="grid-column:2;text-align:left;">
+          <span class="timeline-date">2021 — 2023</span>
+          <h3>Diploma in Computer Engineering</h3>
+          <h4>Dr. B R A G M R Polytechnic College</h4>
+          <p>Scored 72% — Built strong foundational knowledge in computer science and engineering principles.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ ACHIEVEMENTS ═══ -->
+  <section id="achievements" style="background:var(--cream-dark);padding:8rem 3rem;">
+    <div style="text-align:center;" class="reveal">
+      <span class="section-tag">✦ The Accolades</span>
+      <h2 class="section-title">Achievements & <em>Recognition</em></h2>
+    </div>
+    <div class="achievements-grid">
+      <div class="achievement-card reveal">
+        <div class="achievement-icon">⭐</div>
+        <h3>CodeChef 2-Star Programmer</h3>
+        <p>Achieved a rating of 1401, demonstrating consistent problem-solving skills in data structures and algorithms
+          across competitive programming contests.</p>
+      </div>
+      <div class="achievement-card reveal">
+        <div class="achievement-icon">🏆</div>
+        <h3>SUS Hacks National Hackathon</h3>
+        <p>Designed and developed a functional prototype in a 24-hour national hackathon, showcasing teamwork,
+          innovation, and rapid problem-solving under pressure.</p>
+      </div>
+      <div class="achievement-card reveal">
+        <div class="achievement-icon">🎬</div>
+        <h3>Short Film — 2,500+ Views</h3>
+        <p>Served as video editor for a short film that amassed over 2,500 views, highlighting creativity, storytelling
+          ability, and audience engagement.</p>
+      </div>
+    </div>
+
+    <!-- Certifications -->
+    <div style="text-align:center;margin-top:5rem;" class="reveal">
+      <span class="section-tag">✦ Certifications</span>
+      <h2 class="section-title" style="font-size:clamp(1.5rem,3vw,2.5rem);">Professional <em>Credentials</em></h2>
+    </div>
+    <div class="cert-list">
+      <div class="cert-item reveal">
+        <div class="cert-badge">🎓</div>
+        <div>
+          <h4>AI & Machine Learning</h4>
+          <p>EduSkills (AICTE)</p>
+        </div>
+      </div>
+      <div class="cert-item reveal">
+        <div class="cert-badge">🐍</div>
+        <div>
+          <h4>Python Programming</h4>
+          <p>Cisco Networking Academy</p>
+        </div>
+      </div>
+      <div class="cert-item reveal">
+        <div class="cert-badge">🔐</div>
+        <div>
+          <h4>Cybersecurity Essentials</h4>
+          <p>Cisco Networking Academy</p>
+        </div>
+      </div>
+      <div class="cert-item reveal">
+        <div class="cert-badge">☁️</div>
+        <div>
+          <h4>AWS Cloud Foundations</h4>
+          <p>Amazon Web Services</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section class="contact" id="contact">
+    <div style="text-align:center;" class="reveal">
+      <span class="section-tag">✦ The Inquiry</span>
+      <h2 class="section-title">Let's <em>Connect</em></h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal-left">
+        <h3>Get In Touch</h3>
+        <p>
+          Whether you're looking for a passionate AI intern, a collaborator for your next project,
+          or just want to discuss the future of technology — I'd love to hear from you.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:medikondanikhilcharan@gmail.com" class="contact-link">
+            ✉️ &nbsp;medikondanikhilcharan@gmail.com
+          </a>
+          <a href="tel:+916281276176" class="contact-link">
+            📞 &nbsp;+91 6281276176
+          </a>
+          <a href="https://linkedin.com/in/medikonda-nikhil-charan-a5587a359" target="_blank" class="contact-link">
+            🔗 &nbsp;LinkedIn Profile
+          </a>
+          <a href="https://github.com/Nikhil0809" target="_blank" class="contact-link">
+            💻 &nbsp;GitHub Profile
+          </a>
+        </div>
+        <div class="social-row">
+          <a href="https://linkedin.com/in/medikonda-nikhil-charan-a5587a359" target="_blank" class="social-link"
+            title="LinkedIn">in</a>
+          <a href="https://github.com/Nikhil0809" target="_blank" class="social-link" title="GitHub">GH</a>
+          <a href="mailto:medikondanikhilcharan@gmail.com" class="social-link" title="Email">@</a>
+        </div>
+      </div>
+      <form class="contact-form reveal-right" onsubmit="event.preventDefault();alert('Thank you! Message sent.');">
+        <div class="form-group"><input type="text" placeholder="Your Name" required /></div>
+        <div class="form-group"><input type="email" placeholder="Your Email" required /></div>
+        <div class="form-group"><input type="text" placeholder="Subject" /></div>
+        <div class="form-group"><textarea placeholder="Your Message" required></textarea></div>
+        <button type="submit" class="btn-primary" style="width:100%;border:none;">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <span class="footer-logo">Nikhil Charan</span>
+    <div style="display:flex;gap:2rem;">
+      <a href="https://linkedin.com/in/medikonda-nikhil-charan-a5587a359" target="_blank"
+        style="font-size:.75rem;color:var(--brown-muted);text-decoration:none;">LinkedIn</a>
+      <a href="https://github.com/Nikhil0809" target="_blank"
+        style="font-size:.75rem;color:var(--brown-muted);text-decoration:none;">GitHub</a>
+    </div>
+    <span class="footer-copy">© 2025 Nikhil Charan. All Rights Reserved.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+MEDIKONDA NIKHIL CHARAN  
+6281276176 |medikondanikhilcharan@gmail.com  |  linkedin.com/in/medikonda -nikhil -charan -a5587a359   |  Payakaraopeta, 
+Andhra Pradesh  
+PROFESSIONAL SUMMARY  
+Results -driven Information Technology student with hands -on experience in AI/ML, Python development, cloud 
+platforms, and AI automation workflows. Skilled in building intelligent systems, integrating APIs, and leveraging no -code 
+automation tools (Zapier, M ake.com) to streamline processes. Actively seeking an AI & AI Automation Internship to 
+apply technical expertise and deliver impactful solutions in fast -paced environments.  
+EDUCATION  
+B.Tech – Information Technology  2023 – 2027  
+Vignan's Institute of Information Technology (Affiliated to JNTU -GV) CGPA: 7.98 / 10  
+Diploma in Computer Engineering  2021 – 2023  
+Dr. B R A G M R Polytechnic College  |  72%  
+INTERNSHIPS & WORK EXPERIENCE  
+AI & Automation Intern (ML & Python)  | HMI – Long Term Internship  2024  
+• Completed an intensive internship focused on Core Python and Machine Learning, covering data preprocessing, 
+model building, and evaluation. Developed a mini project for sugarcane disease prediction using supervised ML 
+techniques, applying end -to-end model pipeline development. Automated reporting workflows using Python 
+scripts and integrated APIs to streamline data collection and result delivery. Leveraged AI tools (ChatGPT, GitHub 
+Copilot) to accelerate development cycles and improve code quality.  
+AWS Cloud Virtual Intern  | Amazon Web Services (AICTE)  Oct – Dec 2024  
+• Gained foundational knowledge in cloud computing, AWS core services (EC2, S3, Lambda), deployment strategies, 
+and scalability concepts.  
+AWS AI -ML Virtual Intern  | Amazon Web Services (AICTE)  Jan – Mar 2025  
+• Learned end -to-end machine learning workflows and implemented AI models using AWS SageMaker and related 
+tools. Built and deployed ML pipelines integrating AWS APIs for automated data ingestion and model inference.  
+Google AI -ML Virtual Intern  | Google (AICTE)  Apr – Jun 2025  
+• Developed practical skills in AI/ML concepts including model training, evaluation, and deployment using Google 
+technologies. Utilized AI automation tools and APIs to build intelligent data processing pipelines and solve real -
+world problems.  
+PROJECTS  
+AI Attendance System  
+• Built an AI -powered face recognition system to automate student attendance with high accuracy using Python and 
+OpenCV.  
+Sugarcane Disease Prediction  
+• Designed and deployed a machine learning system to classify and predict sugarcane plant diseases from input data 
+features.  
+TECHNICAL SKILLS  
+Programming Languages & Web: Python, Java, C, HTML, CSS  
+AI & Automation Tools: ChatGPT, Claude AI, GitHub Copilot, Zapier, Make.com (Integromat), n8n  
+APIs & Integration: REST APIs, OpenAI API, Webhook integrations, Postman  
+Cloud & Databases: AWS (EC2, S3, Lambda, SageMaker – Basics), SQL  
+ML & Data: Machine Learning (scikit -learn, pandas, numpy), Data Preprocessing, Model Evaluation  
+Developer Tools: Git, GitHub, VS Code, Excel, Postman  
+Creative Skills: Video Editing, Photo Editing & Visual Design, Content Creation  
+CERTIFICATIONS  
+• AI & Machine Learning – EduSkills (AICTE)  
+• Python Programming – Cisco Networking Academy  
+• Cybersecurity Essentials – Cisco Networking Academy  
+• AWS Cloud Foundations – Amazon Web Services  
+ACHIEVEMENTS & EXTRACURRICULAR ACTIVITIES  
+• CodeChef 2 -Star Rated Competitive Programmer – Achieved a rating of 1401, demonstrating consistent problem -
+solving skills in data structures and algorithms.  
+• SUS Hacks National Hackathon (24 -Hour) – Designed and developed a functional prototype under time constraints, 
+showcasing teamwork and rapid problem -solving.  
+• Short Film Project – Served as video editor for a short film that amassed over 2,500 views, highlighting creativity, 
+storytelling, and audience engagement.  
+SOFT SKILLS  
+Communication  |  Problem -Solving  |  Teamwork & Collaboration  |  Leadership  |  Adaptability  |  Time Management  
